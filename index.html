@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evade Wiki - Roblox</title>
+    <meta name="description" content="A fan-made wiki for the Roblox Evade game mode with guides, characters, items, and maps information.">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Evade Wiki - Roblox">
+    <meta property="og:description" content="A fan-made wiki for the Roblox Evade game mode">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/favicon.svg">
+</head>
+<body class="dark-theme">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <svg id="evade-logo" viewBox="0 0 200 60" width="180" height="50">
+                    <text x="10" y="40" fill="currentColor" font-family="Arial, sans-serif" font-weight="bold" font-size="40">EVADE</text>
+                    <text x="170" y="20" fill="currentColor" font-family="Arial, sans-serif" font-size="12">WIKI</text>
+                </svg>
+            </div>
+            <nav>
+                <button id="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul id="main-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="items.html">Items</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <div class="container">
+            <div class="search-box">
+                <svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                </svg>
+                <input type="text" id="search-input" placeholder="Search wiki...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-animation">
+                    <object data="images/hero.svg" type="image/svg+xml" width="100%" height="300">
+                        <!-- Fallback text -->
+                        <h1>Welcome to Evade Wiki</h1>
+                    </object>
+                </div>
+                <p>Your ultimate resource for the Roblox Evade game mode</p>
+            </div>
+        </section>
+
+        <section class="coming-soon">
+            <div class="container">
+                <h2>Coming Soon</h2>
+                <div class="card-grid">
+                    <div class="card" id="characters">
+                        <a href="characters.html" class="card-link">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="48" height="48">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                            </div>
+                            <h3>Characters</h3>
+                            <p>Detailed information about playable characters and enemies</p>
+                        </a>
+                    </div>
+                    <div class="card" id="items">
+                        <a href="items.html" class="card-link">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="48" height="48">
+                                    <path d="M18.6 6.62c-1.44 0-2.8.56-3.77 1.53L12 10.66 10.48 12h.01L7.8 14.39c-.64.64-1.49.99-2.4.99-1.87 0-3.39-1.51-3.39-3.38S3.53 8.62 5.4 8.62c.91 0 1.76.35 2.44 1.03l1.13 1 1.51-1.34L9.22 8.2A5.37 5.37 0 0 0 5.4 6.62C2.42 6.62 0 9.04 0 12s2.42 5.38 5.4 5.38c1.44 0 2.8-.56 3.77-1.53l2.83-2.5.01.01L13.52 12h-.01l2.69-2.39c.64-.64 1.49-.99 2.4-.99 1.87 0 3.39 1.51 3.39 3.38s-1.52 3.38-3.39 3.38c-.9 0-1.76-.35-2.44-1.03l-1.14-1.01-1.51 1.34 1.27 1.12a5.386 5.386 0 0 0 3.82 1.57c2.98 0 5.4-2.41 5.4-5.38s-2.42-5.37-5.4-5.37z"/>
+                                </svg>
+                            </div>
+                            <h3>Items</h3>
+                            <p>List of all in-game items, weapons, and power-ups</p>
+                        </a>
+                    </div>
+                    <div class="card" id="maps">
+                        <a href="maps.html" class="card-link">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="48" height="48">
+                                    <path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/>
+                                </svg>
+                            </div>
+                            <h3>Maps</h3>
+                            <p>Explore all the maps with tips and strategies</p>
+                        </a>
+                    </div>
+                    <div class="card" id="guides">
+                        <a href="guides.html" class="card-link">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="48" height="48">
+                                    <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+                                </svg>
+                            </div>
+                            <h3>Guides</h3>
+                            <p>Strategies and techniques to master the game</p>
+                        </a>
+                    </div>
+                    <div class="card" id="faq">
+                        <a href="faq.html" class="card-link">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="48" height="48">
+                                    <path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/>
+                                </svg>
+                            </div>
+                            <h3>FAQ</h3>
+                            <p>Frequently asked questions about Evade</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Evade Wiki | Fan-made site, not affiliated with Roblox</p>
+            <div class="social-links">
+                <a href="https://github.com/yourusername/evade-wiki" class="github-link" target="_blank" rel="noopener noreferrer">
+                    <img src="images/github.svg" alt="GitHub Repository" width="24" height="24">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 

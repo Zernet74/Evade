@@ -1,0 +1,16 @@
+{
+  "name": "Evade Wiki - Roblox",
+  "short_name": "Evade Wiki",
+  "description": "A fan-made wiki for the Roblox Evade game mode",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
